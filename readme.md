@@ -30,7 +30,7 @@ docker compose up --build -d
 
 # Open Swagger UI at `http://localhost:8000/docs`, for Interactive Usage
 
-### Bare metal
+### Without Docker (Bare Metal)
 
 ```bash
 python -m venv .venv
