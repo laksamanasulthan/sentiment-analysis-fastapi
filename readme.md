@@ -28,7 +28,7 @@ cp .env.example .env
 docker compose up --build -d
 ```
 
-The API is now available at `http://localhost:8000`, Swagger UI at `http://localhost:8000/docs`.
+# Open Swagger UI at `http://localhost:8000/docs`, for Interactive Usage
 
 ### Bare metal
 

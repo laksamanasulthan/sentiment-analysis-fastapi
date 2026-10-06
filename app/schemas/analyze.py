@@ -2,7 +2,7 @@ from pydantic import BaseModel, Field, field_validator
 
 
 class AnalyzeRequest(BaseModel):
-    text: str = Field(min_length=1, max_length=2000)
+    text: str = Field(min_length=1, max_length=2000, examples=["Saya sangat puas dengan layanan pelanggan hari ini, responnya cepat dan ramah!"])
 
     @field_validator("text")
     @classmethod
